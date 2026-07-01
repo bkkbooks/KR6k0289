@@ -1,0 +1,36 @@
+canonical_identifier: bkk:krp/KR6k0289/v1
+canonical_location: https://kanripo.org/bkk/KR6k0289/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 表無表章科
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/G/G104/G104n2274.xml
+    old_id: G104n2274
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 0, filename: KR6k0289_000.yaml, hash: 'sha256:f8f9d8510602897253dff52d1395b126d37d21ef0b828d11c3f99b8aa1dee94c'}
+  - {seq: 1, filename: KR6k0289_001.yaml, hash: 'sha256:07062cea94895f2f631e022c13e13fb013c818400eaf9d88b052bd46c3bc1c47'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6k0289_001.markers.yaml, hash: 'sha256:9d0e82743c7e9f2f263cb33f08c290ca6f224e3426d73b6546346516289c15f7'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6k0289_G_001-juan-start
+    span:
+    - body
+    - 0
+    - 948
+  label: 表無表章科
+  type: juan
+  level: 1
+hash: sha256:3c1db856be1beff5f668901a89b86534a280589b74c778d362644689e73181cd
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+editions:
+- short: G

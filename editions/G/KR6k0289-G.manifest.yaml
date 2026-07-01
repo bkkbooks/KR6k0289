@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6k0289/G/v1
+canonical_location: https://kanripo.org/bkk/KR6k0289/G/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 表無表章科
+  identifiers:
+    krp: KR6k0289
+    cbeta: G104n2274
+    cbeta_old_id: G104n2274
+    authorityid: CA0008639
+    json_key: G2274
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/G/G104/G104n2274.xml
+    old_id: G104n2274
+  edition:
+    short: G
+assets:
+  parts:
+  - {seq: 0, filename: KR6k0289_000-G.yaml, hash: 'sha256:f8f9d8510602897253dff52d1395b126d37d21ef0b828d11c3f99b8aa1dee94c'}
+  - {seq: 1, filename: KR6k0289_001-G.yaml, hash: 'sha256:359254e976a8b36dadde385c560f13c16c729c39d937985632345d9a916f2772'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6k0289_000-G.markers.yaml, hash: 'sha256:db3a2167cb3894dcba4093080ad07cdd5714e7854c5e4c53587d14cabbec072b'}
+  - {seq: 1, role: markers, filename: assets/KR6k0289_001-G.markers.yaml, hash: 'sha256:ad8011d1075c22bc1f0bb2db929bcd84f09593d3f534bec6f6e4e69a2324c59f'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6k0289_G_001-juan-start
+    span:
+    - body
+    - 0
+    - 948
+  label: 表無表章科
+  type: juan
+  level: 1
+hash: sha256:4801aaab470398c43a33525af0fd0dd333fddf440612042c98d4462652bd21d0
